@@ -5,7 +5,7 @@ finaldata.txt contains processed of data from a previous study on Human Activity
 
 This dataset contains the means of the mean and of the standard deviation of the variables measured in the [original dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), grouped by subject number and activity type.
 
-**Note on units:** This script does not alter units of the variables reported in the original dataset. However, units are not provided in this codebook because, to the best of the author knowledge, could not be located in the original dataset codebook. For further information please refer to the [original dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)  
+**Note on units:** This script does not alter units of the variables reported in the original dataset. For further information please refer to the [original dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)  
 
 ## General description of variables
 
@@ -16,13 +16,17 @@ The following variables contain either the suffix mean() or std(): \
 mean(): indicates the mean of means from the original dataset \
 std(): indicates the mean of the standard deviations from the original dataset
 
-**Accelerometer  3-axial raw signals**
+**Accelerometer body component  3-axial raw signals** 
+
+*units: standard gravity units (g)
 
 - *tBodyAcc-X* 
 - *tBodyAcc-Y*
 - *tBodyAcc-Z* 
 
-**Gravity 3-axial raw signals**
+**Accelerometer gravitational component 3-axial raw signals**
+
+*units: standard gravity units (g)
 
 - *tGravityAcc-X*
 - *tGravityAcc-Y*
@@ -30,11 +34,15 @@ std(): indicates the mean of the standard deviations from the original dataset
 
 **Accelerometer Jerk signals**
 
+*units: standard gravity units (g)
+
 - *tBodyAccJerk-X*
 - *tBodyAccJerk-Y*
 - *tBodyAccJerk-Z* 
 
 **Gyroscope 3-axial raw signals**
+
+*units: radians/second
 
 - *tBodyGyro-X*
 - *tBodyGyro-Y*
@@ -42,11 +50,15 @@ std(): indicates the mean of the standard deviations from the original dataset
 
 **Gyroscope Jerk signals**
 
+*units: radians/second
+
 - *tBodyGyroJerk-X*
 - *tBodyGyroJerk-Y*
 - *tBodyGyroJerk-Z* 
 
 **Magnitude of the three-dimensional signals**
+
+*no units
 
 - *tBodyAccMag*
 - *tGravityAccMag*
@@ -55,17 +67,24 @@ std(): indicates the mean of the standard deviations from the original dataset
 
 **Fast Fourer Transforms (FFT) of signals**
 
+*units: standard gravity units (g)
+
 - *fBodyAcc-X*
 - *fBodyAcc-Y*
 - *fBodyAcc-Z* 
 - *fBodyAccJerk-X*
 - *fBodyAccJerk-Y*
 - *fBodyAccJerk-Z*
+
+*units: radians/second
+
 - *fBodyGyro-X*
 - *fBodyGyro-Y*
 - *fBodyGyro-Z*
+
+*no units
+
 - *fBodyAccMag*
 - *fBodyAccJerkMag*
 - *fBodyGyroMag*
 - *fBodyGyroJerkMag*
-
