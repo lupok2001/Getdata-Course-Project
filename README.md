@@ -1,7 +1,7 @@
 
 ##Script for Course Project in 'getdata-031'"
 
-This script uses functions from the **dplyr** R package
+This script in *run_analysis.R* uses functions from the **dplyr** R package
 
 This script:
 
