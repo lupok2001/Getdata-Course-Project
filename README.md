@@ -23,6 +23,6 @@ or locally by:
 
 *> read.table("finaldata.txt", header = TRUE)*
 
-An step-wise explanation of the script is provided by in-script comments
+An step-wise explanation of the script is provided by in-script comments.
 The file **CodeBook.md** contains an explanation of the dataset variables
 
