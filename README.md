@@ -1,9 +1,7 @@
 
 ##Script for Course Project in 'getdata-031'"
 
-This script in *run_analysis.R* uses functions from the **dplyr** R package
-
-This script:
+The script contained in *run_analysis.R*:
 
 1) Downloads a messy dataset on an experiment performed on Human Activity Recognition (for more information refer to the corresponding README.TXT after download)
 
@@ -23,6 +21,7 @@ or locally by:
 
 *> read.table("finaldata.txt", header = TRUE)*
 
+The script calls on functions from the **dplyr** R package.
 An step-wise explanation of the script is provided by in-script comments.
-The file **CodeBook.md** contains an explanation of the dataset variables
+The file **CodeBook.md** contains an explanation of the dataset variables.
 
