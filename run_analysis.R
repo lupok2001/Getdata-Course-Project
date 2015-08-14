@@ -24,3 +24,24 @@ merged_label <- (bind_rows(label_test, label_train))
 merged <- (bind_rows(subject_test, subject_train)) %>%
         bind_cols(merged_label) %>%
         bind_cols(merged_set)
+
+#renames the variables to their description 
+colnames(merged) <- c("subject", "activity", features$V2)
+
+#drops duplicated columns and filters by mean and standard deviation
+drops <- (colnames(merged))[duplicated(colnames(merged))]
+merged <- merged[,!(names(merged) %in% drops)] %>%
+        select(c(subject, activity, contains("mean"), contains("std")))
+
+#renames the "activity" observations to their descriptors
+merged$activity <- activities$V2[merged$activity]
+
+#creates final datases ordered by subject number and activity
+merged %>% 
+        group_by(subject, activity) %>%
+        summarise_each(funs(mean)) %>%
+        arrange(subject, activity) %>%
+        print %>%
+        write.table(file = "finaldata.txt", row.names = FALSE)
+        
+
