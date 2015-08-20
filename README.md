@@ -5,7 +5,7 @@ The script contained in *run_analysis.R*:
 
 1) Downloads source datasets from a previous experiment on Human Activity Recognition (for more information refer to the corresponding README.TXT after download)
 
-2) Imports and merges the relevant datasets as data tables, in accordance to the requirements specified in the Course Project assignment from "Getting and Cleaning Data" [getdata-031](https://class.coursera.org/getdata-031/human_grading)
+2) Imports and merges the relevant datasets in one data table, meeting the requirements specified in the Course Project assignment from "Getting and Cleaning Data" [getdata-031](https://class.coursera.org/getdata-031/human_grading)
 
 3) Selects the variables measuring means and standard deviations. The selection is made by checking for "mean" or "std" strings in the variable names
 
