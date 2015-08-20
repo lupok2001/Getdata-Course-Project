@@ -12,6 +12,7 @@ The script:
 5. Extracts the variables measuring means and standard deviations. The selection is made by checking for "mean" or "std" strings in the name of the variables   
 6. Averages the extracted variables, grouped by subject and activity
 7. Generates the tidy dataset "finaldata.txt", meeting the principles of tidy data ([Hadley Wickam](http://www.jstatsoft.org/v59/i10/paper))
+
 ***
 The tidy dataset can be read remotely by:       
 *> read.table("https://s3.amazonaws.com/coursera-uploads/user-236299ae3a15123ad5192ed8/975115/asst-3/58cd0cc0429d11e5addaddb4fae5dffa.txt", header = TRUE)*
