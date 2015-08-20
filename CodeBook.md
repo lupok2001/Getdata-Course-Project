@@ -13,13 +13,13 @@ This dataset contains the means of the mean and of the standard deviation of the
 - *activty* - Type of activity (STANDING, SITTING, LAYING, WALKING,WALKING_UPSTAIRS, WALKING DOWNSTAIRS)
 
 
-The following variables contain either the suffix -mean() or -std():
+The following variables contain either the suffix -mean() or -std():.
 -mean(): indicates the mean of means from the original dataset 
 -std(): indicates the mean of the standard deviations from the original dataset
 
 **Accelerometer body component  3-axial raw signals** 
 
-*units: standard gravity units (g)
+units: standard gravity units (g)
 
 - *tBodyAcc-X* 
 - *tBodyAcc-Y*
@@ -27,7 +27,7 @@ The following variables contain either the suffix -mean() or -std():
 
 **Accelerometer gravitational component 3-axial raw signals**
 
-*units: standard gravity units (g)
+units: standard gravity units (g)
 
 - *tGravityAcc-X*
 - *tGravityAcc-Y*
@@ -35,7 +35,7 @@ The following variables contain either the suffix -mean() or -std():
 
 **Accelerometer Jerk signals**
 
-*units: standard gravity units (g)
+units: standard gravity units (g)
 
 - *tBodyAccJerk-X*
 - *tBodyAccJerk-Y*
@@ -43,7 +43,7 @@ The following variables contain either the suffix -mean() or -std():
 
 **Gyroscope 3-axial raw signals**
 
-*units: radians/second
+units: radians/second
 
 - *tBodyGyro-X*
 - *tBodyGyro-Y*
@@ -51,7 +51,7 @@ The following variables contain either the suffix -mean() or -std():
 
 **Gyroscope Jerk signals**
 
-*units: radians/second
+units: radians/second
 
 - *tBodyGyroJerk-X*
 - *tBodyGyroJerk-Y*
@@ -59,7 +59,7 @@ The following variables contain either the suffix -mean() or -std():
 
 **Magnitude of the three-dimensional signals**
 
-*no units
+no units
 
 - *tBodyAccMag*
 - *tGravityAccMag*
@@ -68,7 +68,7 @@ The following variables contain either the suffix -mean() or -std():
 
 **Fast Fourer Transforms (FFT) of signals**
 
-*units: standard gravity units (g)
+units: standard gravity units (g)
 
 - *fBodyAcc-X*
 - *fBodyAcc-Y*
@@ -77,13 +77,13 @@ The following variables contain either the suffix -mean() or -std():
 - *fBodyAccJerk-Y*
 - *fBodyAccJerk-Z*
 
-*units: radians/second
+units: radians/second
 
 - *fBodyGyro-X*
 - *fBodyGyro-Y*
 - *fBodyGyro-Z*
 
-*no units
+no units
 
 - *fBodyAccMag*
 - *fBodyAccJerkMag*
