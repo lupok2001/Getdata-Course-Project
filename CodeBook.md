@@ -7,7 +7,7 @@ This dataset contains the means of the mean and of the standard deviation of the
 
 **Note on units:** This script does not alter units of the variables reported in the original dataset. For further information please refer to the [original dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)  
 ***
-## General description of variables
+## Variables
 
 - *subject* - Subject number (1 to 30)         
 - *activty* - Type of activity (STANDING, SITTING, LAYING, WALKING,WALKING_UPSTAIRS, WALKING DOWNSTAIRS)
