@@ -13,9 +13,9 @@ This dataset contains the means of the mean and of the standard deviation of the
 - *activty* - Type of activity (STANDING, SITTING, LAYING, WALKING,WALKING_UPSTAIRS, WALKING DOWNSTAIRS)
 
 
-The following variables contain either the suffix -mean() or -std():.
--mean(): indicates the mean of means from the original dataset 
--std(): indicates the mean of the standard deviations from the original dataset
+The following variables contain either the suffix -mean() or -std():      
+-mean(): indicates the mean of means from the original dataset       
+-std(): indicates the mean of the standard deviations from the original dataset      
 
 **Accelerometer body component  3-axial raw signals** 
 
