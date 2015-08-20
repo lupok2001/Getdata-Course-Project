@@ -1,4 +1,4 @@
-##"Code Book for finaldata.txt"
+##Code Book for finaldata.txt
 
 
 finaldata.txt contains processed of data from a previous study on Human Activity Recognition 
