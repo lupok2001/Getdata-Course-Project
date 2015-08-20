@@ -1,11 +1,9 @@
 ##Code Book for finaldata.txt
 
 
-finaldata.txt contains processed of data from a previous study on Human Activity Recognition 
+finaldata.txt is a dataset containing processed of data from a previous study on Human Activity Recognition ([source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)). The dataset contains the means of the mean and of the standard deviation of the variables measured in the source dataset, grouped by subject number and activity type.
 
-This dataset contains the means of the mean and of the standard deviation of the variables measured in the original dataset, grouped by subject number and activity type.
-
-**Note on units:** This script does not alter units of the variables reported in the original dataset. For further information please refer to the [original dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)  
+**Note on units:** This script does not alter units of the variables reported in the source dataset.  
 ***
 ## Variables
 
